@@ -1,0 +1,15 @@
+.selected-categories{
+    max-height: 100px; /* Sesuaikan dengan tinggi yang diinginkan */
+    overflow-y: auto;
+}
+.image-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.preview-image {
+    max-width: 100px;
+    max-height: 100px;
+}

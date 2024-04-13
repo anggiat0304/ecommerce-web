@@ -1,0 +1,10 @@
+/* styles.css atau dalam komponen CSS-in-JS */
+.main-container {
+    max-height: 900px; /* Sesuaikan dengan tinggi yang diinginkan */
+    overflow-y: auto;
+    transition: margin-left 0.5s;
+  }
+  
+  .main-content-open {
+    margin-left: 250px; /* Adjust the size based on your sidebar width */
+}

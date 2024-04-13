@@ -1,0 +1,12 @@
+.fixed-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Nilai z-index dapat disesuaikan sesuai kebutuhan */
+  }
+  .main-container.open {
+    /* Additional styles when sidebar is open */
+    /* For example, adjust the margin or padding */
+    margin-left: 250px; /* Adjust the size based on your sidebar width */
+    transition: margin-left 0.5s; /* Add a smooth transition for better user experience */
+  }
